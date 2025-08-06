@@ -14,3 +14,8 @@ This Python code is a simplified, autonomous AI research system that mimics the 
 3.  **Analyst (Analyze)**: This agent, using the **`gemini-2.5-flash`** model, analyzes the performance metrics and the code from the Engineer. It's programmed to specifically look for errors. If an error is found, it generates a detailed, actionable report with line-by-line suggestions on how to fix the code. If the code runs successfully, it provides a high-level analysis of the model's performance to guide the next design iteration.
 
 This closed-loop system is designed to be **self-correcting**: an error in one iteration leads to specific, actionable feedback in the next, allowing the AI to learn and improve its code generation capabilities over time. The entire process is orchestrated in a `main` function that runs for a set number of iterations, demonstrating the iterative nature of AI research.
+
+
+### Note
+The code here was generated using gemini.
+To run the code, an API key for an LLM must be added to the colab environment, or can be hardcoded into the notebook directly (unsafe)
